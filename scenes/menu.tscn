@@ -13,7 +13,7 @@
 [ext_resource path="res://assets/scripts/menu.gd" type="Script" id=11]
 [ext_resource path="res://assets/img/level(pressed).png" type="Texture" id=13]
 
-[sub_resource type="StreamTexture" id=1]
+[sub_resource type="StreamTexture" id=2]
 flags = 4
 load_path = "res://.import/level(nopressed).png-a5651219ffdf9f4f2e65adc8e3062973.stex"
 
@@ -39,7 +39,7 @@ texture = ExtResource( 1 )
 position = Vector2( -91.5103, -71.1222 )
 
 [node name="btn_play" type="TouchScreenButton" parent="Canvas"]
-position = Vector2( 131.142, 255.246 )
+position = Vector2( 94.142, 316.246 )
 scale = Vector2( 0.245472, 0.234488 )
 normal = ExtResource( 5 )
 pressed = ExtResource( 3 )
@@ -47,7 +47,7 @@ pressed = ExtResource( 3 )
 [node name="btn_levels" type="TouchScreenButton" parent="Canvas"]
 position = Vector2( 89.2162, 398.592 )
 scale = Vector2( 0.25224, 0.252038 )
-normal = SubResource( 1 )
+normal = SubResource( 2 )
 pressed = ExtResource( 13 )
 
 [node name="btn_credits" type="TouchScreenButton" parent="Canvas"]
