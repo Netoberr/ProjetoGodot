@@ -17,6 +17,8 @@ func _ready():
 #	
 
 
-func _on_comeback_pressed():
+func _on_comebackfs1_pressed():
 	get_tree().change_scene("res://scenes/menu.tscn")
 	pass # Replace with function body.
+
+#func _on_settingsfs1_pressef()

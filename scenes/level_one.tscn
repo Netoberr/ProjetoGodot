@@ -6,7 +6,7 @@
 [ext_resource path="res://assets/img/comeback(nopressed).png" type="Texture" id=7]
 [ext_resource path="res://assets/img/comeback(pressed).png" type="Texture" id=8]
 
-[node name="Level 1" type="Node2D"]
+[node name="level_one" type="Node2D"]
 script = ExtResource( 4 )
 
 [node name="music" type="AudioStreamPlayer2D" parent="."]
@@ -17,8 +17,10 @@ position = Vector2( 178.78, 322.176 )
 scale = Vector2( 1.00991, 0.999175 )
 texture = ExtResource( 2 )
 
-[node name="comeback" type="TouchScreenButton" parent="."]
+[node name="comebackfs1" type="TouchScreenButton" parent="."]
 position = Vector2( -3.49905, 537.226 )
 scale = Vector2( 0.231035, 0.268834 )
 normal = ExtResource( 7 )
 pressed = ExtResource( 8 )
+
+[node name="settingsfs1" type="TouchScreenButton" parent="."]
