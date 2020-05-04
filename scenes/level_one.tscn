@@ -9,20 +9,16 @@
 [node name="Level 1" type="Node2D"]
 script = ExtResource( 4 )
 
-[node name="music" type="AudioStreamPlayer" parent="."]
+[node name="music" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource( 3 )
 
-[node name="Canvas" type="CanvasLayer" parent="."]
-scale = Vector2( 0.81648, 0.807145 )
-transform = Transform2D( 0.81648, 0, 0, 0.807145, 0, 0 )
-
-[node name="bg" type="Sprite" parent="Canvas"]
-position = Vector2( 218.436, 395.656 )
-scale = Vector2( 1.23022, 1.2288 )
+[node name="bg" type="Sprite" parent="."]
+position = Vector2( 178.78, 322.176 )
+scale = Vector2( 1.00991, 0.999175 )
 texture = ExtResource( 2 )
 
-[node name="comeback" type="TouchScreenButton" parent="Canvas"]
-position = Vector2( -5.71405, 679.165 )
-scale = Vector2( 0.250617, 0.279351 )
+[node name="comeback" type="TouchScreenButton" parent="."]
+position = Vector2( -3.49905, 537.226 )
+scale = Vector2( 0.231035, 0.268834 )
 normal = ExtResource( 7 )
 pressed = ExtResource( 8 )

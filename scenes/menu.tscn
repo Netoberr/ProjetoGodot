@@ -13,7 +13,7 @@
 [ext_resource path="res://assets/scripts/menu.gd" type="Script" id=11]
 [ext_resource path="res://assets/img/level(pressed).png" type="Texture" id=13]
 
-[sub_resource type="StreamTexture" id=2]
+[sub_resource type="StreamTexture" id=1]
 flags = 4
 load_path = "res://.import/level(nopressed).png-a5651219ffdf9f4f2e65adc8e3062973.stex"
 
@@ -47,7 +47,7 @@ pressed = ExtResource( 3 )
 [node name="btn_levels" type="TouchScreenButton" parent="Canvas"]
 position = Vector2( 89.2162, 398.592 )
 scale = Vector2( 0.25224, 0.252038 )
-normal = SubResource( 2 )
+normal = SubResource( 1 )
 pressed = ExtResource( 13 )
 
 [node name="btn_credits" type="TouchScreenButton" parent="Canvas"]
