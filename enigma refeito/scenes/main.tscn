@@ -323,7 +323,7 @@ texture = ExtResource( 4 )
 centered = false
 
 [node name="logo" type="TouchScreenButton" parent="."]
-position = Vector2( 209.736, -357.675 )
+position = Vector2( 248.789, -377.202 )
 scale = Vector2( 0.621239, 0.699796 )
 normal = ExtResource( 3 )
 

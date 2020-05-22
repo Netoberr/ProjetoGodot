@@ -160,3 +160,7 @@ func _on_btnCheck_pressed():
 	
 	# se ainda não respondeu, verifica a resposta
 	_checkAnswer()
+
+
+func _on_Dica2_pressed():
+	get_node("Control/showDica").set_text('TEXTO DE TESTE PARA A DICA')
