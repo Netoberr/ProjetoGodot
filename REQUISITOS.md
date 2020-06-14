@@ -24,4 +24,5 @@ NRF003: Todo o código deve estar comentado em ambos os scripts;
 
 NRF004: O tempo de resposta entre telas não deve passar de 2 segundos.
 
-NRF005: Deverá ter um campo de resposta..
+NRF005: Deverá ter um campo de resposta.
+
