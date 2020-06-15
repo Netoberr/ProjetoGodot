@@ -12,12 +12,22 @@ var enigmas: Array = [
 	{ "level": 2, "pontos": 10, "resposta": ["3"] },
 	{ "level": 3, "pontos": 10, "resposta": ["augusto comte"] },
 	{ "level": 4, "pontos": 10, "resposta": ["guerra de canudos"] },
-	{ "level": 5, "pontos": 10, "resposta": ["governo"] },
+	{ "level": 5, "pontos": 10, "resposta": ["anarquia"] },
 	{ "level": 6, "pontos": 10, "resposta": ["monarquia"] },
 	{ "level": 7, "pontos": 10, "resposta": ["oligarquia"] },
 	{ "level": 8, "pontos": 10, "resposta": ["taylorismo"] },
 	{ "level": 9, "pontos": 10, "resposta": ["esparta"] },
 	{ "level": 10, "pontos": 10, "resposta": ["pitágoras"] },
+	{ "level": 11, "pontos": 10, "resposta": ["socrático"] },
+	{ "level": 12, "pontos": 10, "resposta": ["estado"] },
+	{ "level": 13, "pontos": 10, "resposta": ["mito da caverna"] },
+	{ "level": 14, "pontos": 10, "resposta": ["ares"] },
+	{ "level": 15, "pontos": 10, "resposta": ["cidades-estado"] },
+	{ "level": 16, "pontos": 10, "resposta": ["diretas já"] },
+	{ "level": 17, "pontos": 10, "resposta": ["revolução industrial"] },
+	{ "level": 18, "pontos": 10, "resposta": ["guerra fria"] },
+	{ "level": 19, "pontos": 10, "resposta": ["globalização"] },
+	{ "level": 20, "pontos": 10, "resposta": ["segunda guerra mundial"] },
 ]
 
 # modelo base que será o save do jogador inicialmente

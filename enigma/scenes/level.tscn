@@ -387,7 +387,7 @@ scale = Vector2( 65.2164, 6.55183 )
 normal = ExtResource( 8 )
 
 [node name="TimerNextLevel" type="Timer" parent="."]
-wait_time = 5.0
+wait_time = 2.0
 one_shot = true
 [connection signal="pressed" from="CanvasLayer/HBoxContainer/close/close" to="." method="_on_close_pressed"]
 [connection signal="text_changed" from="Control/resposta" to="." method="_on_resposta_text_changed"]
