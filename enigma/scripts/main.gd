@@ -22,6 +22,12 @@ func _on_btnPlay_pressed():
 	# inicia o jogo
 	Loader.goto_scene("res://scenes/level.tscn")
 
+
+func _on_btntutorial_pressed():
+	Sfx._play("button1")
+	# inicia o jogo
+	Loader.goto_scene("res://scenes/introducao.tscn")
+
 func _on_btnReset_pressed():
 	# reset game
 	Game.deleteFileSave()
@@ -40,3 +46,6 @@ func _on_btnReset_pressed():
 	yield($anim, "animation_finished")
 	_loadData(true)
 	#Loader.goto_scene("res://scenes/main.tscn")
+
+
+

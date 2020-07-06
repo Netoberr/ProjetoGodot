@@ -7,7 +7,7 @@
 [ext_resource path="res://assets/button/play_now.png" type="Texture" id=5]
 [ext_resource path="res://assets/ui_0.png" type="Texture" id=6]
 [ext_resource path="res://assets/button/blank.png" type="Texture" id=7]
-[ext_resource path="res://assets/button/play_now_flash.png" type="Texture" id=8]
+[ext_resource path="res://assets/button/tutorial.png" type="Texture" id=8]
 [ext_resource path="res://assets/effect/fire1.png" type="Texture" id=9]
 [ext_resource path="res://assets/effect/electricity1.png" type="Texture" id=10]
 [ext_resource path="res://assets/audio/fire_woosh.ogg" type="AudioStream" id=11]
@@ -318,6 +318,7 @@ __meta__ = {
 
 [node name="background" type="Sprite" parent="."]
 modulate = Color( 1, 1, 1, 0 )
+position = Vector2( 10.2744, -3.42481 )
 scale = Vector2( 1.56975, 1.59227 )
 texture = ExtResource( 4 )
 centered = false
@@ -329,14 +330,9 @@ normal = ExtResource( 3 )
 
 [node name="btnPlay" type="TouchScreenButton" parent="."]
 modulate = Color( 1, 1, 1, 0 )
-position = Vector2( 30, 812 )
-scale = Vector2( 0.825995, 0.825489 )
+position = Vector2( 88.5639, 948.649 )
+scale = Vector2( 0.669343, 0.47239 )
 normal = ExtResource( 5 )
-
-[node name="Light2D" type="Light2D" parent="btnPlay"]
-position = Vector2( 327.657, 153.066 )
-texture = ExtResource( 8 )
-mode = 2
 
 [node name="Control" type="Control" parent="btnPlay"]
 modulate = Color( 1, 1, 1, 0.368627 )
@@ -469,6 +465,11 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
+[node name="btnIntro" type="TouchScreenButton" parent="."]
+position = Vector2( 128.056, 916.599 )
+scale = Vector2( 0.201023, 0.110272 )
+normal = ExtResource( 8 )
+
 [node name="anim" type="AnimationPlayer" parent="."]
 playback_speed = 3.0
 anims/placar = SubResource( 6 )
@@ -486,8 +487,8 @@ hframes = 10
 
 [node name="electricity1" type="Sprite" parent="."]
 material = SubResource( 9 )
-position = Vector2( 358.089, 565.19 )
-scale = Vector2( 3.17288, 3.17288 )
+position = Vector2( 375.089, 568.281 )
+scale = Vector2( 1.72017, 1.8129 )
 texture = ExtResource( 10 )
 vframes = 2
 hframes = 10
@@ -501,3 +502,4 @@ stream = ExtResource( 12 )
 [connection signal="pressed" from="btnPlay" to="." method="_on_play_now_pressed"]
 [connection signal="pressed" from="btnPlay" to="." method="_on_btnPlay_pressed"]
 [connection signal="pressed" from="Control/btnReset" to="." method="_on_btnReset_pressed"]
+[connection signal="pressed" from="btnIntro" to="." method="_on_btnIntro_pressed"]

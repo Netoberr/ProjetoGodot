@@ -1,4 +1,4 @@
-[gd_scene load_steps=21 format=2]
+[gd_scene load_steps=22 format=2]
 
 [ext_resource path="res://scripts/main.gd" type="Script" id=1]
 [ext_resource path="res://assets/fonts/PoetsenOne-Regular.ttf" type="DynamicFontData" id=2]
@@ -7,6 +7,7 @@
 [ext_resource path="res://assets/button/play_now.png" type="Texture" id=5]
 [ext_resource path="res://assets/ui_0.png" type="Texture" id=6]
 [ext_resource path="res://assets/button/blank.png" type="Texture" id=7]
+[ext_resource path="res://assets/button/tutorial.png" type="Texture" id=8]
 [ext_resource path="res://assets/effect/fire1.png" type="Texture" id=9]
 [ext_resource path="res://assets/effect/electricity1.png" type="Texture" id=10]
 [ext_resource path="res://assets/audio/fire_woosh.ogg" type="AudioStream" id=11]
@@ -367,6 +368,11 @@ __meta__ = {
 autoplay = "flash"
 anims/flash = SubResource( 2 )
 
+[node name="btntutorial" type="TouchScreenButton" parent="."]
+position = Vector2( 93.6439, 887.193 )
+scale = Vector2( 0.231386, 0.104983 )
+normal = ExtResource( 8 )
+
 [node name="placar" type="Sprite" parent="."]
 modulate = Color( 1, 1, 1, 4.96705e-08 )
 position = Vector2( 360, 510.594 )
@@ -434,7 +440,6 @@ __meta__ = {
 }
 
 [node name="Control" type="Control" parent="."]
-visible = false
 anchor_top = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
@@ -497,4 +502,5 @@ stream = ExtResource( 11 )
 stream = ExtResource( 12 )
 [connection signal="pressed" from="btnPlay" to="." method="_on_btnPlay_pressed"]
 [connection signal="pressed" from="btnPlay" to="." method="_on_play_now_pressed"]
+[connection signal="pressed" from="btntutorial" to="." method="_on_btntutorial_pressed"]
 [connection signal="pressed" from="Control/btnReset" to="." method="_on_btnReset_pressed"]

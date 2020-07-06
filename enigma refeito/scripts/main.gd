@@ -40,3 +40,9 @@ func _on_btnReset_pressed():
 	yield($anim, "animation_finished")
 	_loadData(true)
 	#Loader.goto_scene("res://scenes/main.tscn")
+
+
+func _on_btnIntro_pressed():
+	Sfx._play("button1")
+	# inicia o jogo
+	Loader.goto_scene("res://scenes/level.tscn")
