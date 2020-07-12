@@ -318,13 +318,14 @@ __meta__ = {
 
 [node name="background" type="Sprite" parent="."]
 modulate = Color( 1, 1, 1, 0 )
-scale = Vector2( 1.59934, 1.57841 )
+position = Vector2( -9.76062, 0 )
+scale = Vector2( 1.62074, 1.57841 )
 texture = ExtResource( 4 )
 centered = false
 
 [node name="logo" type="TouchScreenButton" parent="."]
-position = Vector2( 97.3661, -153.118 )
-scale = Vector2( 0.621239, 0.621239 )
+position = Vector2( 112.766, -24.0607 )
+scale = Vector2( 0.280563, 0.297787 )
 normal = ExtResource( 3 )
 
 [node name="btnPlay" type="TouchScreenButton" parent="."]
@@ -500,7 +501,7 @@ stream = ExtResource( 11 )
 
 [node name="sfxElectricity" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 12 )
-[connection signal="pressed" from="btnPlay" to="." method="_on_btnPlay_pressed"]
 [connection signal="pressed" from="btnPlay" to="." method="_on_play_now_pressed"]
+[connection signal="pressed" from="btnPlay" to="." method="_on_btnPlay_pressed"]
 [connection signal="pressed" from="btntutorial" to="." method="_on_btntutorial_pressed"]
 [connection signal="pressed" from="Control/btnReset" to="." method="_on_btnReset_pressed"]
