@@ -10,7 +10,6 @@ var dialog = [
 
 var dialog_index = 0
 var finished = false
-var troca = false
 
 
 func _ready():
@@ -22,6 +21,7 @@ func _process(delta):
 		
 func _on_Continue_pressed():
 		load_dialog()
+		
 
 func load_dialog():
 	if dialog_index < dialog.size():
@@ -40,4 +40,4 @@ func load_dialog():
 func _on_Tween_tween_completed(object, key):
 	finished = true
 	
-
+	

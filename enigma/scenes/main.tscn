@@ -507,8 +507,8 @@ stream = ExtResource( 12 )
 position = Vector2( 425.203, 984.228 )
 scale = Vector2( 0.102722, 0.0825592 )
 normal = ExtResource( 13 )
-[connection signal="pressed" from="btnPlay" to="." method="_on_play_now_pressed"]
 [connection signal="pressed" from="btnPlay" to="." method="_on_btnPlay_pressed"]
+[connection signal="pressed" from="btnPlay" to="." method="_on_play_now_pressed"]
 [connection signal="pressed" from="btntutorial" to="." method="_on_btntutorial_pressed"]
 [connection signal="pressed" from="Control/btnReset" to="." method="_on_btnReset_pressed"]
 [connection signal="pressed" from="bntHistoria" to="." method="_on_bntHistoria_pressed"]
