@@ -13,7 +13,7 @@ Wanderley Júnior Alves Trindade
 
 ### Install Project
 
-Commands:
+Commands: .
 
 1 - Crie uma pasta chamada projetos, e navegue até ela no terminal. ( Para organização de projetos ).
 
